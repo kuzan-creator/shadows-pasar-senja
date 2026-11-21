@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shadows of Pasar Senja — A Stealth Heist</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="stage">
+    <canvas id="game" width="1280" height="800"></canvas>
+    <div id="help">
+      <span><b>WASD / Arrows</b> move</span>
+      <span><b>SHIFT</b> sneak</span>
+      <span><b>E / Click</b> throw a coin</span>
+      <span><b>ENTER</b> start / continue</span>
+    </div>
+    <pre id="selftest" aria-hidden="true"></pre>
+    <pre id="err" aria-hidden="true"></pre>
+  </main>
+  <script type="module" src="./game.js"></script>
+</body>
+</html>
